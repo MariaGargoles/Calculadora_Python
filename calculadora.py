@@ -4,9 +4,9 @@ from tkinter import *
 # Definimos la ventana
 ventana = Tk()
 ventana.title("Mi calculadora")
-ventana.geometry("200x250")
-ventana.minsize(400,600)
-ventana.maxsize(400,600)
+ventana.geometry("300x400")
+ventana.minsize(300,400)
+ventana.maxsize(300,400)
 
 # Definimos una función para insertar un número en el cuadro de texto
 def setNumero(numero):
