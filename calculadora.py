@@ -8,14 +8,14 @@ ventana.geometry("300x400")
 ventana.minsize(300,400)
 ventana.maxsize(300,400)
 
-# Definimos una función para insertar un número o porcentaje en el cuadro de texto
+#Función para insertar un número o porcentaje en el cuadro de texto:
 def setNumero(numero):
     if numero == "%":
         txt.insert(END, "/100*")
     else:
         txt.insert(END, str(numero))
 
-# Definimos una función para insertar un punto decimal en el cuadro de texto
+#Función para insertar un punto decimal en el cuadro de texto:
 def setDecimal():
     txt.insert(END, ".")
 
