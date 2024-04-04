@@ -40,9 +40,8 @@ for fila in range(1, 4):
     for columna in range(3):
         btn = Button(ventana, text=str(numero), command=lambda num=numero: setNumero(num))
         btn.grid(row=fila, column=columna)
-        btn.config(width=3, height=3)
+        btn.config(width=6, height=3, font=('Arial', 12))
         numero += 1
-
 
 # Botón de "0"
 btn = Button(ventana, text="0", command=lambda: setNumero(0))
