@@ -63,7 +63,7 @@ for i, operador in enumerate(operadores):
 # Botón de "C"
 btn_clear = Button(ventana, text="C", command=clear)
 btn_clear.grid(row=4, column=2)
-btn_clear.config(width=3, height=3)
+btn_clear.config(width=6, height=3, font=('Arial', 12))
 
 
 # Botón de "="
