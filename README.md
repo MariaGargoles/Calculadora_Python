@@ -21,7 +21,8 @@ Esta es una calculadora simple creada con Python y la biblioteca Tkinter para la
    
 3. Ejecuta el script de Python: python calculadora.py
 
-   ![img1](https://github.com/MariaGargoles/Calculadora_Python/assets/84070258/736d4b5a-0ad3-4cca-b720-ef0d1d444220)
+   ![2](https://github.com/MariaGargoles/Calculadora_Python/assets/84070258/f1297631-a58c-44ea-ab68-787547c82e35)
+
 
 
    
