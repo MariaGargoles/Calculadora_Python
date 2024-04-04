@@ -58,7 +58,7 @@ operadores = ["+", "-", "*", "/"]
 for i, operador in enumerate(operadores):
     btn = Button(ventana, text=operador, command=lambda op=operador: setNumero(op))
     btn.grid(row=i+1, column=3)
-    btn.config(width=3, height=3)
+    btn.config(width=6, height=3, font=('Arial', 12))
 
 # Botón de "C"
 btn_clear = Button(ventana, text="C", command=clear)
