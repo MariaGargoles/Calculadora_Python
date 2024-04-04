@@ -16,6 +16,13 @@ def setNumero(numero):
 def setDecimal():
     txt.insert(END, ".")
 
+#Definimos la funcion para insertar un %
+def setNumero(numero):
+    if numero == "%":
+            txt.insert(END, " / 100 * ")  
+    else:
+            txt.insert(END, str(numero))
+
 #Definimos una función para limpiar el contenido del cuadro de texto
 def clear():
     txt.delete(0, END)
