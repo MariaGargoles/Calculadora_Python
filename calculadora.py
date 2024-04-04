@@ -63,12 +63,14 @@ for i, operador in enumerate(operadores):
 
 # Botón de "C"
 btn_clear = Button(ventana, text="C", command=clear)
-btn_clear.grid(row=4, column=0)
+btn_clear.grid(row=4, column=2)
 btn_clear.config(width=3, height=3)
+
 
 # Botón de "="
 btn_igual = Button(ventana, text="=", command=calcular)
-btn_igual.grid(row=4, column=2)
+btn_igual.grid(row=4, column=3)
 btn_igual.config(width=3, height=3)
+
 
 ventana.mainloop()
