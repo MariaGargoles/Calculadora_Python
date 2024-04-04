@@ -33,6 +33,7 @@ def calcular():
 # Entry
 txt = Entry(ventana)
 txt.grid(row=0, column=0, columnspan=4)
+txt.config(width=15, font=('Arial', 20))
 
 # Pondremos un bucle para crear los botones de los números
 numero = 1
