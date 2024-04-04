@@ -69,7 +69,7 @@ btn_clear.config(width=6, height=3, font=('Arial', 12))
 # Botón de "="
 btn_igual = Button(ventana, text="=", command=calcular)
 btn_igual.grid(row=4, column=3)
-btn_igual.config(width=3, height=3)
+btn_igual.config(width=6, height=3, font=('Arial', 12))
 
 
 ventana.mainloop()
