@@ -46,7 +46,7 @@ for fila in range(1, 4):
 # Botón de "0"
 btn = Button(ventana, text="0", command=lambda: setNumero(0))
 btn.grid(row=4, column=1)
-btn.config(width=3, height=3)
+btn.config(width=6, height=3, font=('Arial', 12))
 
 # Botón de punto decimal
 btn_decimal = Button(ventana, text=".", command=setDecimal)
