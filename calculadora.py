@@ -5,12 +5,16 @@ from tkinter import *
 ventana = Tk()
 ventana.title("Mi calculadora")
 ventana.geometry("200x250")
-ventana.minsize(200,250)
-ventana.maxsize(200,250)
+ventana.minsize(400,600)
+ventana.maxsize(400,600)
 
 # Definimos una función para insertar un número en el cuadro de texto
 def setNumero(numero):
     txt.insert(END, str(numero))
+
+# Definimos una función para insertar un punto decimal en el cuadro de texto
+def setDecimal():
+    txt.insert(END, ".")
 
 #Definimos una función para limpiar el contenido del cuadro de texto
 def clear():
@@ -39,10 +43,16 @@ for fila in range(1, 4):
         btn.config(width=3, height=3)
         numero += 1
 
+
 # Botón de "0"
 btn = Button(ventana, text="0", command=lambda: setNumero(0))
 btn.grid(row=4, column=1)
 btn.config(width=3, height=3)
+
+# Botón de punto decimal
+btn_decimal = Button(ventana, text=".", command=setDecimal)
+btn_decimal.grid(row=4, column=0)
+btn_decimal.config(width=3, height=3)
 
 # Botones de operaciones
 operadores = ["+", "-", "*", "/"]
