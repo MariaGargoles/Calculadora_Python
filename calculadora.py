@@ -51,7 +51,7 @@ btn.config(width=6, height=3, font=('Arial', 12))
 # Botón de punto decimal
 btn_decimal = Button(ventana, text=".", command=setDecimal)
 btn_decimal.grid(row=4, column=0)
-btn_decimal.config(width=3, height=3)
+btn_decimal.config(width=6, height=3, font=('Arial', 12))
 
 # Botones de operaciones
 operadores = ["+", "-", "*", "/"]
